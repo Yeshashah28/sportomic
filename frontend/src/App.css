@@ -1,0 +1,43 @@
+
+html, body, #root {
+  height: 100%;
+  margin: 0;
+  background-color: #65d1b0;
+}
+
+#root {
+  display: flex;
+  justify-content: center; 
+  align-items: center;     
+}
+
+ .background-container {
+      width: 800px;
+      height: 800px;
+      position: relative;
+      background-image: url("E:/sportomic/frontend/public/sportomic bg.jpg");
+      background-size: contain;
+      background-position: center;
+      border-radius: 16px;
+
+      color: white;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+    }
+
+    .background-container::after {
+      content: '';
+      position: absolute;
+      inset: 0;
+      border-radius: 16px;
+      border:1px solid black;
+    }
+.text-container{
+      position: relative;
+      font-size: 1.5rem;
+      font-weight: bold;
+      color: black;
+      z-index: 1;
+}
