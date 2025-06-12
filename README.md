@@ -1,6 +1,8 @@
 # 🏀 Sportomic
 ![React](https://img.shields.io/badge/frontend-React-61DAFB?logo=react&logoColor=white)
 ![Node.js](https://img.shields.io/badge/backend-Node.js-339933?logo=nodedotjs&logoColor=white)
+![MongoDB](https://img.shields.io/badge/database-MongoDB-47A248?logo=mongodb&logoColor=white)
+
 
 
 A demo project built as part of an internship application process.  
